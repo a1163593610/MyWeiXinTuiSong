@@ -32,8 +32,8 @@ jobs:
 
     - name: runing java
       run: |
-        src/main/java/com/example/dacongming/DacongmingApplication.java
-      #  java src/main/java/com/example/dacongming/DacongmingApplication
+        javac /home/runner/work/MyWeiXinTuiSong/MyWeiXinTuiSong/src/main/java/com/example/dacongming/DacongmingApplication.java
+        java /home/runner/work/MyWeiXinTuiSong/MyWeiXinTuiSong/src/main/java/com/example/dacongming/DacongmingApplication
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     #- name: Update dependency graph
